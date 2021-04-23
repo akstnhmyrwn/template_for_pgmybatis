@@ -1,4 +1,4 @@
-package com.xiangpeng.tools;
+package com.xiangpeng.shsearch.tools;
 
 import org.apache.ibatis.type.NStringTypeHandler;
 

@@ -1,4 +1,4 @@
-package com.xiangpeng.tools;
+package com.xiangpeng.shsearch.tools;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;

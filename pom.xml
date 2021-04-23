@@ -8,11 +8,11 @@
         <version>2.4.4</version>
         <relativePath/>
     </parent>
-    <groupId>com.test</groupId>
-    <artifactId>demo</artifactId>
+    <groupId>com.xiangpeng.program</groupId>
+    <artifactId>shsearch</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bootAop</name>
-    <description>Demo project for Spring Boot</description>
+    <name>shsearch</name>
+
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -29,6 +29,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.76</version>
+        </dependency>
+
 
         <!--data-->
         <dependency>

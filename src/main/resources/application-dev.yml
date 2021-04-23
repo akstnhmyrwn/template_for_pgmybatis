@@ -4,7 +4,7 @@ server:
 spring:
   datasource:
     #PostgreSQL配置
-    url: jdbc:postgresql://127.0.0.1:5432/mybatis
+    url: jdbc:postgresql://127.0.0.1:5432/shsearch
     username: postgres
     password: 123456
     driver-class-name: org.postgresql.Driver
@@ -12,6 +12,6 @@ mybatis:
   # 加载配置文件
   # mapper-locations: classpath:mybatis/mappers/*.xml
   # 实体类所在路径，填写改路径mapper文件中可以不写全路径
-  type-aliases-package: com.xiangpeng.test.entities
+  # type-aliases-package: com.xiangpeng.shsearch.entities
 
 

@@ -1,7 +1,8 @@
-package com.xiangpeng.controller;
+package com.xiangpeng.shsearch.controller;
 
-import com.xiangpeng.entities.AppUser;
-import com.xiangpeng.service.AppUserService;
+import com.xiangpeng.shsearch.entities.AppUser;
+import com.xiangpeng.shsearch.service.AppUserService;
+import com.xiangpeng.shsearch.tools.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -16,8 +17,8 @@ public class AppUserController {
 
 
     @GetMapping("/getUserById/{id}")
-    public String getUserById(@PathVariable("id")Long id){
+    public Result getUserById(@PathVariable("id")Long id){
         AppUser aUser = appUserService.getUserById(id);
-        return aUser.toString();
+        return Result.success(aUser);
     }
 }

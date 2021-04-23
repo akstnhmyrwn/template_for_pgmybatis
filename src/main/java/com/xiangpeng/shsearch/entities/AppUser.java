@@ -1,4 +1,4 @@
-package com.xiangpeng.entities;
+package com.xiangpeng.shsearch.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -11,10 +11,11 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(schema = "new_model",name = "user_self")
+@Table(schema = "data",name = "user_self")
 public class AppUser implements Serializable {
     @Id
     private Long id;
+    private String username;
     private Byte gender;
-    private Byte age;
+    private Short age;
 }

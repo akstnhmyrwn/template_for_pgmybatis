@@ -1,8 +1,8 @@
-package com.xiangpeng.service.impl;
+package com.xiangpeng.shsearch.service.impl;
 
-import com.xiangpeng.dao.AppUserMapper;
-import com.xiangpeng.entities.AppUser;
-import com.xiangpeng.service.AppUserService;
+import com.xiangpeng.shsearch.dao.AppUserMapper;
+import com.xiangpeng.shsearch.entities.AppUser;
+import com.xiangpeng.shsearch.service.AppUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
