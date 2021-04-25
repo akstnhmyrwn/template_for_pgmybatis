@@ -1,6 +1,11 @@
 #################################### common config : ####################################
 server:
   port: 8888
+  servlet:
+    encoding:
+      force: true
+  tomcat:
+    uri-encoding: UTF-8
 spring:
   datasource:
     #PostgreSQL配置

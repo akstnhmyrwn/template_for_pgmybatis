@@ -12,7 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(schema = "data",name = "user_self")
-public class AppUser implements Serializable {
+public class AppUser extends BaseEntity implements Serializable {
     @Id
     private Long id;
     private String username;

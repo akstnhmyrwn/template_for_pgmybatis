@@ -1,0 +1,22 @@
+#class: com.xiangpeng.shsearch.entities.AppUser
+
+#jsonStart
+[
+  {
+    "id": 1,
+    "username": "向鹏",
+    "gender": 0,
+    "age": 18
+  },{
+    "id": 1,
+    "username": "罗鑫",
+    "gender": 1,
+    "age": 17
+  },{
+    "id": 1,
+    "username": "曹毅成",
+    "gender": 1,
+    "age": 16
+  }
+]
+#jsonEnd

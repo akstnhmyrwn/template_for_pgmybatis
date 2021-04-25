@@ -1,21 +1,31 @@
+#class: com.xiangpeng.shsearch.entities.Carousel
+
+#jsonStart
 [
-  {
-    "id": 1,
-    "movieId": "marvel-1011",
-    "image": "https://localhost",
-    "sort": 1,
-    "isShow": 1
-  },{
-    "id": 2,
-    "movieId": "marvel-1012",
-    "image": "https://localhost",
-    "sort": 1,
-    "isShow": 1
-},{
-    "id": 3,
-    "movieId": "marvel-1013",
-    "image": "https://localhost",
-    "sort": 1,
-    "isShow": 1
-}
+    {
+      "id": 1,
+      "movieId": "marvel-1011",
+      "image": "http://localhost:8888/image/carousel/1.png",
+      "sort": 1,
+      "isShow": 1
+    },{
+      "id": 2,
+      "movieId": "marvel-1012",
+      "image": "http://localhost:8888/image/carousel/2.png",
+      "sort": 1,
+      "isShow": 1
+    },{
+        "id": 3,
+        "movieId": "marvel-1013",
+        "image": "http://localhost:8888/image/carousel/3.jpg",
+        "sort": 1,
+        "isShow": 1
+    },{
+        "id": 4,
+        "movieId": "marvel-1013",
+        "image": "http://localhost:8888/image/carousel/4.jpeg",
+        "sort": 1,
+        "isShow": 1
+    }
 ]
+#jsonEnd

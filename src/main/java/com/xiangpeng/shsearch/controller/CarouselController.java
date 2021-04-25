@@ -3,13 +3,8 @@ package com.xiangpeng.shsearch.controller;
 import com.xiangpeng.shsearch.entities.AppUser;
 import com.xiangpeng.shsearch.entities.Carousel;
 import com.xiangpeng.shsearch.tools.Result;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 
 @RestController
@@ -18,12 +13,14 @@ public class CarouselController {
 
     @GetMapping
     @ResponseBody
-    public Result<Collection> getCarouses(){
-        List carouses = new ArrayList<String>();
-        carouses.add("https://www.baidu.com");
-
+    public Result<Object> getCarouses(){
         Carousel carousel = new Carousel();
-        return Result.success(carouses);
+        return Result.success(carousel.findModels());
     }
-
+    @GetMapping("getUsers")
+    @ResponseBody
+    public Result<Object> getUsers(){
+        AppUser appUser = new AppUser();
+        return Result.success(appUser.findModels());
+    }
 }

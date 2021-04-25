@@ -6,12 +6,13 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.io.Serializable;
 import java.util.Collection;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Result<T> {
+public class Result<T> implements Serializable {
     private T data;
     private String msg;
     private short status;
@@ -24,7 +25,7 @@ public class Result<T> {
     }
     public static class ResultState{
 
-        public static final short success = 200;
+        public static final short success = 1;
         public static final short fail = -1;
     }
 }
