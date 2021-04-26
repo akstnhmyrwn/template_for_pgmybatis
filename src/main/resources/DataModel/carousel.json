@@ -17,12 +17,6 @@
     },{
         "id": 3,
         "movieId": "marvel-1013",
-        "image": "http://localhost:8888/image/carousel/3.jpg",
-        "sort": 1,
-        "isShow": 1
-    },{
-        "id": 4,
-        "movieId": "marvel-1013",
         "image": "http://localhost:8888/image/carousel/4.jpeg",
         "sort": 1,
         "isShow": 1

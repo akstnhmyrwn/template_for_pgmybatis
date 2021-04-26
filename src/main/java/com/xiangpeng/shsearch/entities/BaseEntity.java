@@ -29,6 +29,7 @@ public class BaseEntity implements Serializable {
         final String classNameChar = "#class:";
         final String jsonStartChar = "#jsonStart";
         final String jsonEndChar = "#jsonEnd";
+
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
 
         Map<String,String> dataCache = new HashMap<>();
@@ -87,16 +88,16 @@ public class BaseEntity implements Serializable {
 
 
             try {
-
+                Class clazz = Class.forName(className);
                 if(value.startsWith("{")){
-                    Object objectVlue = JSONObject.parseObject(value,Class.forName(className));
+                    Object objectVlue = JSONObject.parseObject(value,clazz);
                     dataMode.put(className,objectVlue);
                 }else if(value.startsWith("[")){
-                    List<?> objects = JSONArray.parseArray(value, Class.forName(className));
+                    List<?> objects = JSONArray.parseArray(value, clazz);
                     dataMode.put(className,objects);
                 }
             } catch (ClassNotFoundException e) {
-                e.printStackTrace();
+                System.err.println(e.getMessage());
             }
         }
 

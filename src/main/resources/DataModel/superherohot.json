@@ -1,0 +1,75 @@
+#class: com.xiangpeng.shsearch.entities.SuperHeroHot
+
+#jsonStart
+[
+  {
+    "id": "dc-1004",
+    "name": "蝙蝠侠：黑暗骑士崛起",
+    "poster": "http://localhost:8888/image/poster/civilwar.jpg",
+    "cover": "http://localhost:8888/image/poster/justice.png",
+    "trailer": "www.imovietrailer.com/superhero/doc.html?",
+    "score": 6.1,
+    "prisedCounts":7561,
+    "basicinfo":"2018/美国/科幻/超级英雄",
+    "originalName":"原名：The Dark Knignt Rises",
+    "titalTime":"影片时长：165分钟（中国大陆）",
+    "plotDesc":"检察官哈维·登特（艾伦·艾克哈特 Aaron Eckhart 饰）死后的八年间，哥谭市在戈登警长（加里·奥德曼 Gary Oldman 饰）的努力下有效地遏制了犯罪活动。而蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰）因为背负谋杀登特的罪名，被 警方通缉，在哥谭市销声匿迹。然而，这看似平静的状态被恐怖分子贝恩（汤姆·哈迪 Tom Hardy 饰）的出现打破，他利用猫女（安妮·海瑟薇 Anne Hathaway 饰）偷取布鲁斯的指纹，致使韦恩集团面临破财，布鲁斯被赶出董事会。为了保证韦恩集团投资的能源项目不被坏人利用制造核弹，布鲁斯帮助米兰达（玛丽昂·歌迪亚 Marion Cotillard 饰）成为董事会主席。贝恩接下来一连串精密设计的计划将哥谭市陷入孤绝之境，毁灭之日指日可待。布鲁斯只能再次肩负起拯救哥谭的重任，然而至亲的管家阿福辞职离开、猫女的背叛、贝恩的凶残手段，爱人米拉达的真实面目露出，都让他拯救哥谭的行动变得不可能……",
+    "directors":[""],
+    "actors":[""],
+    "plotPics":["https://1.png"],
+    "createTime":"2018-08-29 07:40:37"
+  },
+  {
+    "id": "dc-1005",
+    "name": "蝙蝠侠：黑暗骑士崛起",
+    "poster": "http://localhost:8888/image/poster/justice.png",
+    "cover": "http://localhost:8888/image/poster/justice.png",
+    "trailer": "www.imovietrailer.com/superhero/doc.html?",
+    "score": 5.7,
+    "prisedCounts":7561,
+    "basicinfo":"2018/美国/科幻/超级英雄",
+    "originalName":"原名：The Dark Knignt Rises",
+    "titalTime":"影片时长：165分钟（中国大陆）",
+    "plotDesc":"　　超人离去，举世陷入哀悼之中。可是世界并未就此和平，恶势力蠢蠢欲动，犯罪气焰重新抬头。更为糟糕的是，来自远古的可怕威胁正渐渐逼近。在很久很久以前，亚特兰蒂斯人、亚马逊人和神族联合对抗邪恶的荒原狼。历经艰苦的斗争，荒原狼最终战败，被迫流放，而他留在地球上的三个盒子则分别由亚特兰蒂斯人、亚马逊人和普通人类看管。如今荒原狼卷土重来，地球被邪恶的阴影笼罩。值此危急关头，神奇女侠戴安娜（盖尔·加朵 Gal Gadot 饰）、蝙蝠侠布鲁斯·韦恩（本·阿弗莱克 Ben Affleck 饰）、海王（杰森·莫玛 Jason Momoa 饰）、闪电侠（埃兹拉·米勒 Ezra Miller 饰）、钢骨维克多·斯通（雷·费舍尔 Ray Fisher 饰）等五名正义战士走到一起。/n他们结成正义联盟，与荒原狼大军展开殊死之战……",
+    "directors":[""],
+    "actors":[""],
+    "plotPics":["https://1.png"],
+    "createTime":"2018-08-29 07:40:37"
+  },
+  {
+    "id": "dc-1006",
+    "name": "蝙蝠侠：黑暗骑士崛起",
+    "poster": "http://localhost:8888/image/poster/civilwar.jpg",
+    "cover": "http://localhost:8888/image/poster/justice.png",
+    "trailer": "www.imovietrailer.com/superhero/doc.html?",
+    "score": 8.7,
+    "prisedCounts":7561,
+    "basicinfo":"2018/美国/科幻/超级英雄",
+    "originalName":"原名：The Dark Knignt Rises",
+    "titalTime":"影片时长：165分钟（中国大陆）",
+    "plotDesc":"检察官哈维·登特（艾伦·艾克哈特 Aaron Eckhart 饰）死后的八年间，哥谭市在戈登警长（加里·奥德曼 Gary Oldman 饰）的努力下有效地遏制了犯罪活动。而蝙蝠侠布鲁斯·韦恩（克里斯蒂安·贝尔 Christian Bale 饰）因为背负谋杀登特的罪名，被 警方通缉，在哥谭市销声匿迹。然而，这看似平静的状态被恐怖分子贝恩（汤姆·哈迪 Tom Hardy 饰）的出现打破，他利用猫女（安妮·海瑟薇 Anne Hathaway 饰）偷取布鲁斯的指纹，致使韦恩集团面临破财，布鲁斯被赶出董事会。为了保证韦恩集团投资的能源项目不被坏人利用制造核弹，布鲁斯帮助米兰达（玛丽昂·歌迪亚 Marion Cotillard 饰）成为董事会主席。贝恩接下来一连串精密设计的计划将哥谭市陷入孤绝之境，毁灭之日指日可待。布鲁斯只能再次肩负起拯救哥谭的重任，然而至亲的管家阿福辞职离开、猫女的背叛、贝恩的凶残手段，爱人米拉达的真实面目露出，都让他拯救哥谭的行动变得不可能……",
+    "directors":[""],
+    "actors":[""],
+    "plotPics":["https://1.png"],
+    "createTime":"2018-08-29 07:40:37"
+  },
+  {
+    "id": "dc-1007",
+    "name": "蝙蝠侠：黑暗骑士崛起",
+    "poster": "http://localhost:8888/image/poster/justice.png",
+    "cover": "http://localhost:8888/image/poster/justice.png",
+    "trailer": "www.imovietrailer.com/superhero/doc.html?",
+    "score": 6.3,
+    "prisedCounts":7561,
+    "basicinfo":"2018/美国/科幻/超级英雄",
+    "originalName":"原名：The Dark Knignt Rises",
+    "titalTime":"影片时长：165分钟（中国大陆）",
+    "plotDesc":"　　超人离去，举世陷入哀悼之中。可是世界并未就此和平，恶势力蠢蠢欲动，犯罪气焰重新抬头。更为糟糕的是，来自远古的可怕威胁正渐渐逼近。在很久很久以前，亚特兰蒂斯人、亚马逊人和神族联合对抗邪恶的荒原狼。历经艰苦的斗争，荒原狼最终战败，被迫流放，而他留在地球上的三个盒子则分别由亚特兰蒂斯人、亚马逊人和普通人类看管。如今荒原狼卷土重来，地球被邪恶的阴影笼罩。值此危急关头，神奇女侠戴安娜（盖尔·加朵 Gal Gadot 饰）、蝙蝠侠布鲁斯·韦恩（本·阿弗莱克 Ben Affleck 饰）、海王（杰森·莫玛 Jason Momoa 饰）、闪电侠（埃兹拉·米勒 Ezra Miller 饰）、钢骨维克多·斯通（雷·费舍尔 Ray Fisher 饰）等五名正义战士走到一起。/n他们结成正义联盟，与荒原狼大军展开殊死之战……",
+    "directors":[""],
+    "actors":[""],
+    "plotPics":["https://1.png"],
+    "createTime":"2018-08-29 07:40:37"
+  }
+]
+#jsonEnd
+

@@ -23,6 +23,11 @@ public class Result<T> implements Serializable {
     public static <T> Result<T> success(T data){
         return new Result<T>(data,"请求成功",ResultState.success);
     }
+
+    public static Result<Object> failMsg(String s) {
+        return new Result(null,"请求成功",ResultState.fail);
+    }
+
     public static class ResultState{
 
         public static final short success = 1;
